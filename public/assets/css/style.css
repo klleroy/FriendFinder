@@ -1,0 +1,15 @@
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+.navbar {
+    background-color: #3C5A99;
+    color: #fff;
+    border-bottom: 1px solid #dadada;
+}
+nav a {
+    color: #fff;
+}
+nav a:hover {
+    color: #fff;
+}

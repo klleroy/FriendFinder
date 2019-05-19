@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Friend Finder</title>
+</head>
+
+<body>
+  <div class="navbar d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-md">
+    <i class="far fa-address-book fa-2x fa-flip-horizontal"></i>
+    <h5 class="my-0 mr-md-auto font-weight-normal pl-3">Friend Finder</h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2" href="#">API Friends List</a>
+      <span>|</span>
+      <a class="p-2" href="#">GitHub Repo</a>
+    </nav>
+  </div>
+  <div class="container">
+    <h2>Survey Questions</h2>
+    <hr>
+    <h4><strong>About You</strong></h4>
+    <p>Please answer all questions to the best of your ability.</p>
+    <h4 class="pt-2">Name (Required)</h4>
+    <input type="text" name="" id="name" class="form-control" required>
+    <h4 class="pt-3">Link to photo (Required)</h4>
+    <input type="text" name="" id="photo" class="form-control" required>
+    <hr class="my-4">
+    <section id="friend-form">
+      <section class="form-group">
+        <h4>Question 1</h4>
+        <label for="item1" class="control-label">
+          Your mind is always buzzing with unexplored ideas and plans.
+        </label>
+        <div>
+          <select class="form-control" id="item1">
+            <option value="" selected disabled>Choose</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+      </section>
+      <section class="form-group">
+        <h4>Question 2</h4>
+        <label for="item2" class="control-label">
+          Generally speaking, you rely more on your experience than your imagination.
+        </label>
+        <div>
+          <select class="form-control" id="item2">
+            <option value="" selected disabled>Choose</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+      </section>
+      <section class="form-group">
+        <h4>Question 3</h4>
+        <label for="item3" class="control-label">
+          You crave attention more often than not.
+        </label>
+        <div>
+          <select class="form-control" id="item3">
+            <option value="" selected disabled>Choose</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+      </section>
+      <section class="form-group">
+        <h4>Question 4</h4>
+        <label for="item4" class="control-label">
+          You have a short fuse.
+        </label>
+        <div>
+          <select class="form-control" id="item4">
+            <option value="" selected disabled>Choose</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+      </section>
+      <section class="form-group">
+        <h4>Question 5</h4>
+        <label for="item5" class="control-label">
+          You often feel alienated or out of place.
+        </label>
+        <div>
+          <select class="form-control" id="item5">
+            <option value="" selected disabled>Choose</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+      </section>
+      <section class="form-group">
+        <h4>Question 6</h4>
+        <label for="item6" class="control-label">
+          You would much rather enjoy being in charge rather than behind the scenes.
+        </label>
+        <div>
+          <select class="form-control" id="item6">
+            <option value="" selected disabled>Choose</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+      </section>
+      <section class="form-group">
+        <h4>Question 7</h4>
+        <label for="item7" class="control-label">
+          You strongly seek after wealth.
+        </label>
+        <div>
+          <select class="form-control" id="item7">
+            <option value="" selected disabled>Choose</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+      </section>
+      <section class="form-group">
+        <h4>Question 8</h4>
+        <label for="item8" class="control-label">
+          You're scientifically minded.
+        </label>
+        <div>
+          <select class="form-control" id="item8">
+            <option value="" selected disabled>Choose</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+      </section>
+      <section class="form-group">
+        <h4>Question 9</h4>
+        <label for="item9" class="control-label">
+          You like to take chances rather than play it safe.
+        </label>
+        <div>
+          <select class="form-control" id="item9">
+            <option value="" selected disabled>Choose</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+      </section>
+      <section class="form-group">
+        <h4>Question 10</h4>
+        <label for="item10" class="control-label">
+          You feel more energetic after spending time with a group of people.
+        </label>
+        <div>
+          <select class="form-control" id="item10">
+            <option value="" selected disabled>Choose</option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+      </section>
+    </section>
+    <!-- Modal -->
+    <div class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title"></h4>
+          </div>
+          <div class="modal-body text-center">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-danger btn-lg btn-block" id="submit">Submit</button>
+    <br>
+    <a href="/">
+      <button type="button" class="btn btn-primary">
+        Return Home
+      </button>
+    </a>
+    <hr>
+    <footer class="footer">
+      <p>
+        <a href="/api/friends">API Friends List</a> | <a href="https://github.com/a-ashbeck/FriendFinder">GitHub
+          Repo</a>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
