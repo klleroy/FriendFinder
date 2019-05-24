@@ -19,15 +19,18 @@
 </head>
 
 <body>
-  <div class="navbar d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom shadow-md">
-    <i class="far fa-address-book fa-2x fa-flip-horizontal"></i>
-    <h5 class="my-0 mr-md-auto font-weight-normal pl-3">Friend Finder</h5>
+  <div class="navbar d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-5 shadow-lg">
+    <i class="fas fa-user-friends fa-2x fa-flip-horizontal"></i>
+    <h5 class="my-0 mr-md-auto font-weight-normal pl-3">Super Villain Friend Finder</h5>
     <nav class="my-2 my-md-0 mr-md-3">
-      <a href="/api/friends">API Friends List</a> <span>&#124;</span> <a
-        href="https://github.com/a-ashbeck/FriendFinder">GitHub
-        Repo</a>
+      <a class="p-2" href="/api/friends">API Friends List</a>
+      <span>|</span>
+      <a class="p-2" href="https://github.com/jobu206/FriendFinder">GitHub Repo</a>
+      <span>|</span>
+      <a class="p-2" href="https://kevinleroy.me">Portfolio</a>
     </nav>
   </div>
+
   <div class="container">
     <h2>Survey Questions</h2>
     <hr>
@@ -211,6 +214,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
+          <h5 class="modal-title">Meet your new best friend: </h5>
           <button type="button" class="close" data-dismiss="modal">
             &times;
           </button>
@@ -240,24 +244,6 @@
 
 
   <script type="text/javascript">
-    // let config = {
-    //   ".chosen-select": {},
-    //   ".chosen-select-deselect": {
-    //     allow_single_deselect: true
-    //   },
-    //   ".chosen-select-no-single": {
-    //     disable_search_threshold: 10
-    //   },
-    //   ".chosen-select-no-results": {
-    //     no_results_text: "Oops, nothing found!"
-    //   },
-    //   ".chosen-select-width": {
-    //     width: "95%"
-    //   }
-    // };
-    // for (let selector in config) {
-    //   $(selector).chosen(config[selector]);
-    // }
     // Capture the form inputs
     $("#submit").on("click", function (event) {
       // debugger;
