@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jobu206/FriendFinder.git"
+    "url": "git+https://github.com/klleroy/FriendFinder.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jobu206/FriendFinder/issues"
+    "url": "https://github.com/klleroy/FriendFinder/issues"
   },
-  "homepage": "https://github.com/jobu206/FriendFinder#readme"
+  "homepage": "https://github.com/klleroy/FriendFinder#readme"
 }
